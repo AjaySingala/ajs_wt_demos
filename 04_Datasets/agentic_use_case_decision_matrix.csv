@@ -1,0 +1,7 @@
+Use_Case,Frequency,Decision_Complexity,Data_Availability,Action_Risk,Reversibility,Human_Approval,Recommended_Category
+Weekly management report,Weekly,Low,High,Low,High,Usually no,GenAI/Copilot
+Ticket classification,Continuous,Medium,High,Medium,High,Sometimes,Workflow + GenAI
+Complex incident investigation,Event-driven,High,Medium,High,Medium,Yes,Agentic candidate + Human Approval
+Production configuration change,Event-driven,High,Medium,Very High,Medium,Yes,Workflow + Human Approval
+Data-quality exception reconciliation,Daily,High,High,Medium,High,Depends,Agentic candidate + Controls
+Customer-impacting communication,Event-driven,Medium,High,High,Low,Yes,Copilot + Human Approval
